@@ -1,7 +1,6 @@
 ---
 title: "在goDaddy购买域名并绑定博客"
 date: 2021-07-05T18:08:23+03:00
-comments: true
 categories:
 - blog
 - hugo
