@@ -1,5 +1,5 @@
 ---
-title: "搭建个人博客 1 - 在goDaddy购买域名并绑定博客"
+title: "博客搭建 1 - 在goDaddy购买域名并绑定博客"
 date: 2021-07-05T18:08:23+03:00
 categories:
 - blog
