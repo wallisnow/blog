@@ -1,5 +1,5 @@
 ---
-title: "博客搭建 1 - 在goDaddy购买域名并绑定博客"
+title: "[博客搭建 1]-在goDaddy购买域名并绑定博客"
 date: 2021-07-05T18:08:23+03:00
 categories:
 - blog
@@ -12,6 +12,9 @@ keywords:
 - blog
 - hugo
 - domain
+
+contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
+
 ---
 
 <!--more-->

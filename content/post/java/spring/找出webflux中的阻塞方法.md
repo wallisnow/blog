@@ -1,5 +1,5 @@
 ---
-title: "如何找出webflux中的阻塞方法"
+title: "[Spring][Webflux]如何找出webflux中的阻塞方法"
 date: 2021-07-02T11:55:41+03:00
 categories:
 - Java
@@ -12,6 +12,9 @@ tags:
 keywords:
 - tech
 thumbnailImage: /img/spring.png
+
+contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
+
 ---
 
 <!--more-->
