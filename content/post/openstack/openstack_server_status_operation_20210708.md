@@ -1,7 +1,8 @@
 ---
 title: "[openstack] 如何开关vm及类似操作命令"
+date: 2021-07-02T11:55:41+03:00
 draft: false
-tags: ["openstack", "server"]
+tags: ["openstack", "openstack常用操作", "server"]
 categories: ["openstack"]
 author: "Jiang WU"
 
@@ -9,36 +10,38 @@ contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki
 
 ---
 
-*1. 往往这些操作是需要特定权限的, 确保操作是你是有操作权限的.*
+> 往往这些操作是需要特定权限的, 确保操作时你拥有操作权限
 
-> 暂停/取消暂停
+# 1. 暂停/取消暂停
 * 这种状态下VM的状态会保存到RAM中, CUP则不会, 取消后会继续暂停前的状态
 ```
 $ openstack server pause myInstance
 $ openstack server unpause myInstance
 ```
-> 挂起/取消挂起
+# 2. 挂起/取消挂起
 * 这种状态类似物理机休眠, 状态会保存在文件中, CUP和RAM会被释放出来
 ```
 $ openstack server pause myInstance
 $ openstack server resume myInstance
 ```
-> 停机/启动
+# 3. 关机/开机
 ```
 $ openstack server start myInstance
 $ openstack server stop myInstance
 ```
-> 检查机器状态
+# 4. 检查机器状态
+## 4.1 简单查看, 即从所有实例中找目标机器
 ```
-//简单查看, 即从所有实例中找目标机器
 $ openstack server list | grep myInstance
 +--------------------------------------+-------------+---------+----------------------------------------------------------------------------------------------
 | ID                                   | Name        | Status  | Networks                                                                                     
 +--------------------------------------+-------------+---------+----------------------------------------------------------------------------------------------
 | 27b48f01-aed0-47e6-b3ab-c22e1d7064f4 | master-01   | SHUTOFF | internal-net-01=10.0.10.75, fd00::17:1111::2f7 
 ....
+```
 
-//详细信息
+## 4.2 查看详细信息
+```
 $ openstack server show master-01
 +-------------------------------------+------------------------------------------------------------------+
 | Field                               | Value                                                            |
