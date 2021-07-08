@@ -80,3 +80,7 @@ CNAME文件内容就是你自己的域名
 没结论
 
 [domain-name]: https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D  "wiki: domain name"
+
+
+# 打赏我
+![alt text](/img/wechat_qr.jpg "Title")

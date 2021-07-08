@@ -64,3 +64,6 @@ $ openstack server show master-01
 ```
 
 > [官方的server操作文档(pike)](https://docs.openstack.org/python-openstackclient/pike/cli/command-objects/server.html#server-suspend)
+
+# 打赏我
+![alt text](/img/wechat_qr.jpg "Title")

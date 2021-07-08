@@ -1,16 +1,10 @@
 ---
 title: "[Spring][Webflux]如何找出webflux中的阻塞方法"
 date: 2021-07-02T11:55:41+03:00
-categories:
-- Java
-- Spring
-- WebFlux
-tags:
-- java
-- spring
-- webflux
-keywords:
-- tech
+tags: ["java", "spring", "webflux"]
+categories: ["java", "spring", "webflux"]
+comments: true
+
 thumbnailImage: /img/spring.png
 
 contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
@@ -180,3 +174,6 @@ tasks.withType(Test) {
 
 # 7. ref
 [https://medium.com/@domenicosibilio/blockhound-detect-blocking-calls-in-reactive-code-before-its-too-late-6472f8ad50c1](https://medium.com/@domenicosibilio/blockhound-detect-blocking-calls-in-reactive-code-before-its-too-late-6472f8ad50c1)
+
+# 打赏我
+![alt text](/img/wechat_qr.jpg "Title")

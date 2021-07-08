@@ -1,0 +1,215 @@
+baseURL: "https://unprobug.com/"
+title: Unpro BUG
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+googleAnalytics: G-QNSJ3VFPDD
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+    fr:
+        languageName: ":fr:"
+        languageAltTitle: French
+        weight: 2
+        title:
+        profileMode:
+            enabled: true
+            title: Jiang WU
+            # imageUrl: "#"
+            # imageTitle: my image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "👨 A Daddy | A Developer"
+            buttons:
+                - name: Blog
+                  url: posts/
+                - name: Tags
+                  url: tags/
+        menu:
+            main:
+                - name: Archive
+                  url: archives/
+                  weight: 5
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+                - name: Series
+                  url: series/
+                  weight: 10
+
+    fa:
+        languagedirection: rtl
+        weight: 3
+        title: Jiang WU's Blog
+        homeInfoParams:
+            Title: "Hi there \U0001F44B"
+            Content: |
+                I'm a Daddy who code in different areas, I hope my blog could give you some ideas
+
+                - Je suis en Papa qui program dans les domaines différents, J'espère que mon site vous aide un peu
+
+                - Olen isä, olen kehittäjä
+
+                - 我是一个写代码的爸爸, 上面的简介也大概代表了我的生活经历, 希望我的博客能给大家一些帮助
+#        menu:
+#            main:
+#                - name: Tags
+#                  url: tags/
+#                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Unpro BUG"
+    author: Jiang WU
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: Unpro BUG
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives/
+            - name: Tags
+              url: tags/
+
+    homeInfoParams:
+        Title: "Unprofessional BUG"
+        Content: >
+            命中有时终须有,命中无时莫强求
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/wallisnow"
+#        - name: KoFi
+#          url: "https://ko-fi.com/adityatelange"
+        - name: RsS
+          url: "index.xml"
+
+    editPost:
+        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+#    label:
+#     text: "Home"
+#     icon: img/avatar.jpg
+#     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+#    cover:
+#     hidden: true # hide everywhere but not in structured data
+#     hiddenInList: true # hide on list pages and home
+#     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: true
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: true
+        simple: true
+
+    youtube:
+        disabled: true
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
