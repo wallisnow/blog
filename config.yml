@@ -52,26 +52,6 @@ languages:
                   url: posts/
                 - name: Tags
                   url: tags/
-
-    cn:
-        languageName: ":cn:"
-        languageAltTitle: 中文
-        weight: 3
-        title:
-        profileMode:
-            enabled: true
-            title: 你好
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "👨 A Daddy | A Developer"
-            buttons:
-                - name: Blog
-                  url: posts/
-                - name: Tags
-                  url: tags/
-
     fi:
         languageName: "🇫🇮"
         languageAltTitle: Suomi
@@ -90,6 +70,26 @@ languages:
                   url: posts/
                 - name: Tags
                   url: tags/
+
+    cn:
+        languageName: ":cn:"
+        languageAltTitle: 中文
+        weight: 4
+        title:
+        profileMode:
+            enabled: true
+            title: 你好
+            # imageUrl: "#"
+            # imageTitle: my image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "👨 A Daddy | A Developer"
+            buttons:
+                - name: Blog
+                  url: posts/
+                - name: Tags
+                  url: tags/
+
         menu:
             main:
                 - name: Archive
@@ -105,9 +105,9 @@ languages:
                   url: series/
                   weight: 10
 
-    fa:
+    Me:
         languagedirection: rtl
-        weight: 3
+        weight: 5
         title: Jiang WU's Blog
         homeInfoParams:
             Title: "Hi there \U0001F44B"
