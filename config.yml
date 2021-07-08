@@ -110,7 +110,7 @@ languages:
         weight: 5
         title: Jiang WU's Blog
         homeInfoParams:
-            Title: "Hi there \U0001F44B"
+            Title: "你好/Bonjour/Hei/Hello \U0001F44B"
             Content: |
                 I'm a Daddy who code in different areas, I hope my blog could give you some ideas
 
@@ -118,7 +118,7 @@ languages:
 
                 - Olen isä, olen kehittäjä
 
-                - 我是一个写代码的爸爸, 上面的简介也大概代表了我的生活经历, 希望我的博客能给大家一些帮助
+                - 这么多年, 在公司管过别人也被别人管过, 回家就是一个爸爸, 上面的简介也大概代表了我的生活经历, 不论是技术, 感悟, 语言学习, 希望我的博文能给大家一些帮助
 #        menu:
 #            main:
 #                - name: Tags
