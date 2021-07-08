@@ -83,11 +83,11 @@ languages:
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "👨 A Daddy | A Developer"
+            subtitle: "👨 两个孩子的爸爸 | 撸码"
             buttons:
-                - name: Blog
+                - name: 博文
                   url: posts/
-                - name: Tags
+                - name: 标签
                   url: tags/
 
         menu:
