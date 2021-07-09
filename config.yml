@@ -87,12 +87,10 @@ languages:
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "👨 两个孩子的爸爸 | 撸码"
+            subtitle: "👨 两个孩子的爸爸 | Developer"
             buttons:
-                - name: 博文
-                  url: posts/
-                - name: 标签
-                  url: tags/
+                - name: 版权声明
+                  url: copyright/
 
         menu:
             main:
