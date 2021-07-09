@@ -3,8 +3,8 @@ title: "Copyright"
 layout: "copyright"
 ---
 # 基本信息
-- 作者: 吴疆    
-- 权利人: 吴疆
+- 作者: Jiang WU
+- 权利人: Jiang WU
 - 联系方式: johnwufr@gmail.com
 
 # 版权声明

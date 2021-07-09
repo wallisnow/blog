@@ -5,7 +5,7 @@ draft: false
 tags: ["openstack", "openstack常用操作", "server"]
 categories: ["openstack"]
 author: "Jiang WU"
-
+comments: true
 contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
 
 ---
