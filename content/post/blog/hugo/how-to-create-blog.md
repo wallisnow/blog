@@ -205,5 +205,5 @@ baseURL = "https://johnandethan.github.io/"
 - 如果是失误操作, 直接删掉你本地的文件夹, 和github 的repository 重来就行了
 - 如果是其他问题, 一般多数是由于主题的使用, 建议仔细阅读主题的相关文档
 
-# 打赏我
-![alt text](/img/wechat_qr.jpg "Title")
+# 赠瓶肥宅快乐水吧
+<img src="/img/wechat_qr.jpg" alt="drawing" width="400"/>

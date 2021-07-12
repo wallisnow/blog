@@ -1,5 +1,5 @@
 ---
-title: "[博客搭建 1]-在goDaddy购买域名并绑定博客"
+title: "[博客搭建 1] - 在goDaddy购买域名并绑定博客"
 date: 2021-07-05T18:08:23+03:00
 categories:
 - blog
@@ -82,5 +82,5 @@ CNAME文件内容就是你自己的域名
 [domain-name]: https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D  "wiki: domain name"
 
 
-# 打赏我
-![alt text](/img/wechat_qr.jpg "Title")
+# 赠瓶肥宅快乐水吧
+<img src="/img/wechat_qr.jpg" alt="drawing" width="400"/>

@@ -175,5 +175,5 @@ tasks.withType(Test) {
 # 7. ref
 [https://medium.com/@domenicosibilio/blockhound-detect-blocking-calls-in-reactive-code-before-its-too-late-6472f8ad50c1](https://medium.com/@domenicosibilio/blockhound-detect-blocking-calls-in-reactive-code-before-its-too-late-6472f8ad50c1)
 
-# 打赏我
-![alt text](/img/wechat_qr.jpg "Title")
+# 赠瓶肥宅快乐水吧
+<img src="/img/wechat_qr.jpg" alt="drawing" width="400"/>

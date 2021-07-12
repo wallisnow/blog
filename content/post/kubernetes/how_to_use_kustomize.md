@@ -195,5 +195,9 @@ test@master-0-test01:~> kubectl apply -k .
 pod/my-name-dev-myapp-pod created
 pod/my-name-prod-myapp-pod created
 ```
+
 # 3. 总结
 本例抛砖引玉, 实际生成也不可能只是个pod, 那么kustomize也提供了各种相关标签供大家使用: https://kubernetes.io/zh/docs/tasks/manage-kubernetes-objects/kustomization/
+
+# 赠瓶肥宅快乐水吧
+<img src="/img/wechat_qr.jpg" alt="drawing" width="400"/>
