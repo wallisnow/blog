@@ -1,5 +1,5 @@
 ---
-title: "[博客搭建 0]- 准备工作"
+title: "[博客搭建 0] - 新建并挂载自己的博客到github page"
 date: 2021-07-09
 draft: false
 tags: ["blog", "博客搭建"]
@@ -200,6 +200,10 @@ baseURL = "https://johnandethan.github.io/"
 
 # 3. 测试
 此时输入刚才我们 创建的repo地址, https://johnandethan.github.io/ 就可以看到我们的网页了
+
+# 4. 遇到问题怎么办
+- 如果是失误操作, 直接删掉你本地的文件夹, 和github 的repository 重来就行了
+- 如果是其他问题, 一般多数是由于主题的使用, 建议仔细阅读主题的相关文档
 
 # 打赏我
 ![alt text](/img/wechat_qr.jpg "Title")

@@ -24,7 +24,7 @@ $ openstack server unpause myInstance
 $ openstack server pause myInstance
 $ openstack server resume myInstance
 ```
-# 3. 关机/开机
+# 3. 开机/关机
 ```
 $ openstack server start myInstance
 $ openstack server stop myInstance
