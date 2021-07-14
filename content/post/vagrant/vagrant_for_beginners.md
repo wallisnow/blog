@@ -166,7 +166,7 @@ test@agv1vvp2:~/vagrant$ vagrant ssh node1
 
 > 如果需要更多配置, 可以参考官方文档: https://www.vagrantup.com/docs/vagrantfile
 
-# 7. 配置自己的虚拟机
+# 7. 常用的命令
 
 - 开机
 ```
