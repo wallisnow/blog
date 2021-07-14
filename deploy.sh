@@ -12,7 +12,7 @@ if [ "$push_all_code" = "all"  ]; then
   git push
 fi
 
-printf "\033[0;32mDeploying blog updates to GitHub...\033[0m\n"
+printf "\033[0;32m ================= Deploying blog updates to GitPage ================== \033[0m\n"
 # Build the project.
 hugo -D # if using a theme, replace with `hugo -t <YOURTHEME>`
 cd public
