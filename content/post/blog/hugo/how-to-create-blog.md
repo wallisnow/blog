@@ -2,8 +2,8 @@
 title: "[博客搭建 0] - 新建并挂载自己的博客到github page"
 date: 2021-07-09
 draft: false
-tags: ["blog", "博客搭建"]
-categories: ["blog", "hugo"]
+categories: ["hugo", "blog"]
+tags: ["hugo","blog", "tutorial", "入门教程"]
 author: "Jiang WU"
 comments: true
 comments: true
