@@ -6,7 +6,6 @@ categories: ["hugo", "blog"]
 tags: ["hugo","blog", "tutorial", "入门教程"]
 author: "Jiang WU"
 comments: true
-comments: true
 contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
 
 ---

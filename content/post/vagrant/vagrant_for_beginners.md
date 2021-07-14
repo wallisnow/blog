@@ -1,10 +1,12 @@
 ---
-title: "Vagrant 入门"
+title: "[Vagrant] 入门"
 date: 2021-07-14T12:56:11+03:00
-draft: true
+draft: false
 layout: default
 tags: ["vagrant", "tutorial", "入门教程"]
 categories: ["vagrant"]
+author: "Jiang WU"
+comments: true
 ---
 # 1.什么是vagrant
 具体定义大家可以参见官方网站: https://www.vagrantup.com/.
@@ -13,7 +15,7 @@ categories: ["vagrant"]
 
 # 2.如何工作
 vagrant 通过不同的provider 来对虚拟机软件的API进行调用, 例如 virtualbox, 那么vagrant 通过virtualbox provider 来操作VM. 也就省去了我们手动创建的麻烦
-[how_does_vagrant_works](https://res.cloudinary.com/djpkulbas/image/upload/v1626286970/vagrant/how_does_vagrant_works_ltsbdm.png)
+![how_does_vagrant_works](https://res.cloudinary.com/djpkulbas/image/upload/v1626286970/vagrant/how_does_vagrant_works_ltsbdm.png)
 
 # 3. 安装
 
@@ -43,7 +45,7 @@ Vagrant 2.2.17
 
 # 4. 下载基础镜像
 这里我们以virtualbox 为例, 创建一个centos 7 的基础镜像，　那么我们需要现在vagrant上面下载: https://app.vagrantup.com/centos/boxes/7
-[image](https://res.cloudinary.com/djpkulbas/image/upload/v1626285565/vagrant/download_base_image_sc6e8a.png)
+![image](https://res.cloudinary.com/djpkulbas/image/upload/v1626285565/vagrant/download_base_image_sc6e8a.png)
    
 点击这个镜像，可以看到我们的安装方式有vagrant file 和 new.　我们使用文件的方式, 本地新建一个文件夹用于vagrant, 然后创建这样一个文件，并执行安装.
 
