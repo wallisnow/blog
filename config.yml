@@ -38,42 +38,42 @@ languages:
                   url: copyright
                   weight: 40
 
-    fr:
-        languageName: ":fr:"
-        languageAltTitle: French
-        weight: 2
-        title:
-        profileMode:
-            enabled: true
-            title: Bonjour
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "👨 Papa | Un developpeur"
-            buttons:
-                - name: Blog
-                  url: posts/
-                - name: Tags
-                  url: tags/
-    fi:
-        languageName: "🇫🇮"
-        languageAltTitle: Suomi
-        weight: 3
-        title:
-        profileMode:
-            enabled: true
-            title: Hei
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "👨 isä | kehittäjä "
-            buttons:
-                - name: Blog
-                  url: posts/
-                - name: Tags
-                  url: tags/
+#    fr:
+#        languageName: ":fr:"
+#        languageAltTitle: French
+#        weight: 2
+#        title:
+#        profileMode:
+#            enabled: true
+#            title: Bonjour
+#            # imageUrl: "#"
+#            # imageTitle: my image
+#            # imageWidth: 120
+#            # imageHeight: 120
+#            subtitle: "👨 Papa | Un developpeur"
+#            buttons:
+#                - name: Blog
+#                  url: posts/
+#                - name: Tags
+#                  url: tags/
+#    fi:
+#        languageName: "🇫🇮"
+#        languageAltTitle: Suomi
+#        weight: 3
+#        title:
+#        profileMode:
+#            enabled: true
+#            title: Hei
+#            # imageUrl: "#"
+#            # imageTitle: my image
+#            # imageWidth: 120
+#            # imageHeight: 120
+#            subtitle: "👨 isä | kehittäjä "
+#            buttons:
+#                - name: Blog
+#                  url: posts/
+#                - name: Tags
+#                  url: tags/
 
     cn:
         languageName: ":cn:"
@@ -107,7 +107,7 @@ languages:
                   url: series/
                   weight: 10
 
-    Me:
+    About Me:
         languagedirection: rtl
         weight: 5
         title: Jiang WU's Blog
