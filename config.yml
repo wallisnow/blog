@@ -75,23 +75,22 @@ languages:
 #                - name: Tags
 #                  url: tags/
 
-#    cn:
-#        languageName: ":cn:"
-#        languageAltTitle: 中文
-#        weight: 4
-#        title:
-#        profileMode:
-#            enabled: true
-#            title: 你好
-#            # imageUrl: "#"
-#            # imageTitle: my image
-#            # imageWidth: 120
-#            # imageHeight: 120
-#            subtitle: "👨 两个孩子的爸爸 | Developer"
-#            buttons:
-#                - name: 版权声明
-#                  url: copyright/
-
+    cn:
+        languageName: "🌟"
+        languageAltTitle: 中文
+        weight: 4
+        title:
+        profileMode:
+            enabled: true
+            title: 你好
+            # imageUrl: "#"
+            # imageTitle: my image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "👨 两个孩子的爸爸 | Developer"
+            buttons:
+                - name: 版权声明
+                  url: copyright/
         menu:
             main:
                 - name: Archive
