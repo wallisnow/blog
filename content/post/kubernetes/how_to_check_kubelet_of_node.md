@@ -44,7 +44,9 @@ test@poolalpha-worker-0-01:~> systemctl status kubelet
  Main PID: 8878 (kubelet)
     Tasks: 16
    CGroup: /system.slice/kubelet.service
-           └─8878 /usr/local/bin/kubelet --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf --config=/var/lib/kubelet/config.yaml --network-plugin=cn>
+           └─8878 /usr/local/bin/kubelet 
+           ##### 这里可以看到kubelet使用的参数文件
+           --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf --config=/var/lib/kubelet/config.yaml --network-plugin=cn>
 ```
 
 我们观察到, 此时这个节点使用的配置文件为 **--config=/var/lib/kubelet/config.yaml**, 打开看一下
@@ -88,14 +90,16 @@ nodeStatusReportFrequency: 0s
 nodeStatusUpdateFrequency: 0s
 rotateCertificates: true
 runtimeRequestTimeout: 0s
+
 shutdownGracePeriod: 0s
 shutdownGracePeriodCriticalPods: 0s
+
 staticPodPath: /etc/kubernetes/manifests
 streamingConnectionIdleTimeout: 0s
 syncFrequency: 0s
 volumeStatsAggPeriod: 0s
 ```
-此时, 我们修改某个参数比如:
+此时, 我们修改优雅关机的相关参数,比如:
 ```
 shutdownGracePeriod: 30s 
 shutdownGracePeriodCriticalPods: 10s 
@@ -116,7 +120,7 @@ test@master-0-01:~> kubectl proxy --api-prefix=/ &
 ```
 使用查询接口来查看
 ```
-test@director-0-01:~> curl <b>http://127.0.0.1:8001/api/v1/nodes/poolalpha-worker-0-01/proxy/configz|jq</b>
+test@director-0-01:~> curl http://127.0.0.1:8001/api/v1/nodes/poolalpha-worker-0-01/proxy/configz|jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  2520    0  2520    0     0   7522      0 --:--:-- --:--:-- --:--:--  7522
@@ -237,3 +241,5 @@ test@director-0-01:~> curl <b>http://127.0.0.1:8001/api/v1/nodes/poolalpha-worke
 # 3. 结语
 上面修改kubelet参数只是一个例子, 修改的方法很多, 但查看其实际配置建议还是采用此接口
 
+# 赠瓶肥宅快乐水吧
+<img src="/img/wechat_qr.jpg" alt="drawing" width="400"/>
