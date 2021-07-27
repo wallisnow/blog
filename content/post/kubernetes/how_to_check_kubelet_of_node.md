@@ -32,7 +32,7 @@ poolalpha-worker-1-01   Ready    worker                 15h   v1.21.1   10.0.10.
 
 # 2.1 修改kubelet配置
 接下来, 我们希望修改poolalpha-worker-0-01 的kubelet某个参数, 那么我们先登录这个节点, 然后查看当前节点使用的config.yml
-<pre>
+```
 test@poolalpha-worker-0-01:~> systemctl status kubelet
 ● kubelet.service - kubelet: The Kubernetes Node Agent
    Loaded: loaded (/usr/local/lib/systemd/system/kubelet.service; enabled; vendor preset: disabled)
@@ -44,8 +44,8 @@ test@poolalpha-worker-0-01:~> systemctl status kubelet
  Main PID: 8878 (kubelet)
     Tasks: 16
    CGroup: /system.slice/kubelet.service
-           └─8878 /usr/local/bin/kubelet --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf <b>--config=/var/lib/kubelet/config.yaml</b> --network-plugin=cn>
-</pre>
+           └─8878 /usr/local/bin/kubelet --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf --config=/var/lib/kubelet/config.yaml --network-plugin=cn>
+```
 
 我们观察到, 此时这个节点使用的配置文件为 **--config=/var/lib/kubelet/config.yaml**, 打开看一下
 ```
@@ -115,7 +115,7 @@ test@master-0-01:~> kubectl proxy --api-prefix=/ &
 [1] 6171
 ```
 使用查询接口来查看
-<pre>
+```
 test@director-0-01:~> curl <b>http://127.0.0.1:8001/api/v1/nodes/poolalpha-worker-0-01/proxy/configz|jq</b>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -222,15 +222,15 @@ test@director-0-01:~> curl <b>http://127.0.0.1:8001/api/v1/nodes/poolalpha-worke
       "format": "text"
     },
     "enableSystemLogHandler": true,
-    <b>
+    ################看这里####################
     "shutdownGracePeriod": "30s",
     "shutdownGracePeriodCriticalPods": "10s",
-    </b>
+    ########################################
     "enableProfilingHandler": true,
     "enableDebugFlagsHandler": true
   }
 }
-</pre>
+```
 
 这里使用jq 使得生成的json更加可读
 
