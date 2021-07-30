@@ -1,5 +1,5 @@
 ---
-title: "key value list 转 dictionary"
+title: "[ansible]key value list 转 dictionary"
 date: 2021-07-30T07:42:09+03:00
 draft: false
 tags: ["ansible", "ansible技巧"]
@@ -12,6 +12,7 @@ comments: true
 这两天我需要kubernetes 上面没有ready 的pod列出来, 然后对这些pod进行操作, 又要用到ansible, 思来想去不如来个map, 那么 python 或者ansible里面叫dict
 
 # 输入
+这里有一个 kubectl get pods 得出的结果, 使用ansible的 shell, 我们需要处理其中的stdout, 或者stdout_lines
 ```
 changed: [localhost -> fd00:eccd:0:a0a::5] => {
     "ansible_facts": {
@@ -49,6 +50,7 @@ changed: [localhost -> fd00:eccd:0:a0a::5] => {
 ```
 
 # 需要的数据结构
+我需要得到一个dict, pod_status, 然后key 是pod名, value是pod(容器)状态, 也就是这样滴->
 ```
 "pod_status": {
             "nginx-deployment-66b6c48dd5-4crpt": "true",
