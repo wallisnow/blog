@@ -7,7 +7,6 @@ categories: ["git"]
 comments: true
 ---
 
-
 # 前言
 这里使用dnf, dnf是下一代的包管理工具
 
