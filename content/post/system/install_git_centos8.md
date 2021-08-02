@@ -1,7 +1,10 @@
 ---
 title: "[Centos8] 使用DNF安装git"
 date: 2021-08-02T11:11:47+03:00
-draft: true
+draft: false
+tags: ["centos8", "git"]
+categories: ["git"]
+comments: true
 ---
 
 
