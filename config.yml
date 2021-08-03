@@ -138,7 +138,7 @@ params:
     author: Jiang WU
     # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
+    defaultTheme: PaperMod
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
