@@ -23,6 +23,7 @@ tags: ["kubernetes","network", "基本概念"]
        |                            |
        |===========[Router]=========|         
 ```
-
+# 赠瓶肥宅快乐水吧
+<img src="/img/wechat_qr.jpg" alt="drawing" width="400"/>
 
 
